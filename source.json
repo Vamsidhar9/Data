@@ -1,0 +1,193 @@
+{
+ "CustomerData": [
+ {
+ "CustomerID": 1,
+ "Name": "Aarav",
+ "Age": 30,
+ "Gender": "Male",
+ "City": "Mumbai",
+ "Income": 500000,
+ "Profession": "Engineer"
+ },
+ {
+ "CustomerID": 2,
+ "Name": "Meera",
+ "Age": 45,
+ "Gender": "Female",
+ "City": "Delhi",
+ "Income": 1000000,
+ "Profession": "Teacher"
+ },
+ {
+ "CustomerID": 3,
+ "Name": "Ishaan",
+ "Age": 35,
+ "Gender": "Male",
+ "City": "Bangalore",
+ "Income": 800000,
+ "Profession": "Software Developer"
+ },
+ {
+ "CustomerID": 4,
+ "Name": "Priya",
+ "Age": 40,
+ "Gender": "Female",
+ "City": "Chennai",
+ "Income": 600000,
+ "Profession": "Architect"
+ },
+ {
+ "CustomerID": 5,
+ "Name": "Rohan",
+ "Age": 50,
+ "Gender": "Male",
+ "City": "Kolkata",
+ "Income": 700000,
+ "Profession": "Businessman"
+ }
+ ],
+ "PolicyData": [
+ {
+ "PolicyID": 101,
+ "CustomerID": 1,
+ "PolicyType": "Term",
+ "PremiumAmount": 15000,
+ "PaymentFrequency": "Monthly",
+ "StartDate": "2022-01-01",
+ "EndDate": "2032-01-01",
+ "CoverageAmount": 500000
+ },
+ {
+ "PolicyID": 102,
+ "CustomerID": 2,
+ "PolicyType": "Whole Life",
+ "PremiumAmount": 30000,
+ "PaymentFrequency": "Annual",
+ "StartDate": "2015-06-15",
+ "EndDate": "2045-06-15",
+ "CoverageAmount": 1000000
+ },
+ {
+ "PolicyID": 103,
+ "CustomerID": 3,
+ "PolicyType": "Endowment",
+ "PremiumAmount": 20000,
+ "PaymentFrequency": "Quarterly",
+ "StartDate": "2021-03-01",
+ "EndDate": "2036-03-01",
+ "CoverageAmount": 700000
+ },
+ {
+ "PolicyID": 104,
+ "CustomerID": 4,
+ "PolicyType": "Investment-linked",
+ "PremiumAmount": 25000,
+ "PaymentFrequency": "Monthly",
+ "StartDate": "2020-05-10",
+ "EndDate": "2040-05-10",
+ "CoverageAmount": 1500000
+ },
+ {
+ "PolicyID": 105,
+ "CustomerID": 1,
+ "PolicyType": "Whole Life",
+ "PremiumAmount": 20000,
+ "PaymentFrequency": "Annual",
+ "StartDate": "2021-01-01",
+ "EndDate": "2051-01-01",
+ "CoverageAmount": 800000
+ },
+ {
+ "PolicyID": 106,
+ "CustomerID": 5,
+ "PolicyType": "Term",
+ "PremiumAmount": 18000,
+ "PaymentFrequency": "Monthly",
+ "StartDate": "2023-02-01",
+ "EndDate": "2033-02-01",
+ "CoverageAmount": 600000
+ }
+ ],
+ "ClaimsData": [
+ {
+ "ClaimID": 1001,
+ "PolicyID": 101,
+ "ClaimAmount": 500000,
+ "ClaimReason": "Accident",
+ "ClaimStatus": "Approved",
+ "ClaimDate": "2023-06-20"
+ },
+ {
+ "ClaimID": 1002,
+ "PolicyID": 102,
+ "ClaimAmount": 200000,
+ "ClaimReason": "Death",
+ "ClaimStatus": "Pending",
+ "ClaimDate": "2024-01-05"
+ },
+ {
+ "ClaimID": 1003,
+ "PolicyID": 103,
+ "ClaimAmount": 100000,
+ "ClaimReason": "Critical Illness",
+ "ClaimStatus": "Rejected",
+ "ClaimDate": "2023-10-15"
+ }
+ ],
+ "InstallmentsData": [
+ {
+ "InstallmentID": 201,
+ "PolicyID": 101,
+ "AmountPaid": 15000,
+ "DueDate": "2023-01-01",
+ "PaidDate": "2023-01-01",
+ "Status": "Paid"
+ },
+ {
+ "InstallmentID": 202,
+ "PolicyID": 102,
+ "AmountPaid": 30000,
+ "DueDate": "2023-06-15",
+ "PaidDate": "2023-06-16",
+ "Status": "Pending"
+ },
+ {
+ "InstallmentID": 203,
+ "PolicyID": 104,
+ "AmountPaid": 25000,
+ "DueDate": "2023-05-10",
+ "PaidDate": "2023-05-11",
+ "Status": "Paid"
+ }
+ ],
+ "MaturityData": [
+ {
+ "PolicyID": 101,
+ "MaturityDate": "2032-01-01",
+ "AmountPayable": 500000,
+ "PaidStatus": "Pending"
+ },
+ {
+ "PolicyID": 103,
+ "MaturityDate": "2036-03-01",
+ "AmountPayable": 700000,
+ "PaidStatus": "Pending"
+ }
+ ],
+ "AgentData": [
+ {
+ "AgentID": 1,
+ "Name": "Raj",
+ "Region": "North",
+ "PoliciesGenerated": 50,
+ "TotalPremium": 2500000
+ },
+ {
+ "AgentID": 2,
+ "Name": "Seema",
+ "Region": "South",
+ "PoliciesGenerated": 30,
+ "TotalPremium": 1500000
+ }
+ ]
+}
